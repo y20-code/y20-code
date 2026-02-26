@@ -1,4 +1,4 @@
-# Hi there, I'm 杨林森 👋
+# Hi there, I'm  杨林森👋
 
 **2026届前端开发工程师 (Class of 2026 Frontend Developer)**
 
@@ -14,10 +14,32 @@
 
 ### 💡 核心项目 (Featured Projects)
 
-* **⾼交互前端数据与效能管理系统** * 项⽬描述：针对复杂数据的拖拽排序、多级分类筛选与状态流转，独⽴打造的⾼交互性全栈管
-理平台。系统交互逻辑完美契合复杂编辑器及协同效能⼯具的底层要求。
-* **[项目名称：如 纯 TS 实现的轻量级状态机]** * **核心痛点:** 深入理解状态管理底层原理。
-    * **技术深度:** 不依赖第三方库，纯手写实现类似 Zustand 的核心逻辑，包含 `subscribe` 和 `selector`，处理了闭包陷阱和内存泄漏问题。
+### ⚔️ 前端硬核实战演练 (Frontend Hardcore Training)
+
+> **🎯 核心目标**: 备战 2026 届春招
+> **💡 练习准则**: 拒绝死记硬背，全部基于真实业务需求（如游戏系统设计）推演 JavaScript/TypeScript 底层逻辑与 React 架构演进。
+
+<details>
+<summary><b>🟢 阶段一：JavaScript/TypeScript 底层逻辑突围 (已通关)</b></summary>
+<br>
+
+- [x] **01-铁匠铺锻造功能 (Forge System)** *深入探索:* 对象方法声明、`this` 作用域穿透、默认参数、使用 `reduce` 进行高阶数据聚合、Event Loop 延迟执行机制。
+- [x] **02-天网监控与封号功能 (Chat Monitor)** *深入探索:* TypeScript Interface 严格约束、基于 `filter` 与 `map` 链式调用的业务数据清洗。
+- [x] **03-连击技能工厂 (Combo Skill Factory)** *深入探索:* 闭包与工厂函数模型、数组原地变异 (`push` + 展开运算符) 性能考量。
+- [x] **04-排位赛匹配引擎 (Match Maker Engine)** *深入探索:* OOP 面向对象编程 (Class / constructor / static)、数组队列首位剔除 (`shift`)、TypeScript 严格元组约束 (Tuple)。
+
+</details>
+
+<details>
+<summary><b>🔵 阶段二：React 架构与全局状态管理 (进行中...)</b></summary>
+<br>
+
+- [x] **05-装备背包系统 (React + Zustand Inventory)** *深入探索:* Zustand Store 全局状态剥离、跨组件无感知通信、UI 渲染与核心数据逻辑解耦。
+- [x] **06-冒险者任务大厅 (React Quest Board)** *深入探索:* `useState` 局部状态闭环、`useEffect` 模拟网络请求与生命周期管控、父子传值。
+- [x] **07-铁匠铺图纸商店 (Blacksmith Shop)** *深入探索:* **大厂标准组件设计**，`React.memo` 拦截多余渲染配合 Zustand 稳定引用 (Stable Reference)，前端数据派生计算 (Derived State)。
+- [ ] **08-[待解锁的下一个关卡...]**
+
+</details>
 
 ### 📫 找到我 (Contact)
-* **Email:** 3235882107@qq.com
+* **Email:** 

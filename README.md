@@ -14,13 +14,20 @@
 
 ### 💡 核心项目 (Featured Projects)
 
+* **[⚔️ Word Killer Admin (单词杀手后台) - 高性能中后台管理系统]** * **项目描述:** 基于 React 18 + TS 构建的单词流管理面板，对标大厂 B 端业务中常见的大数据量与复杂状态场景。
+    * **技术深度 (核心亮点):**
+        * **极致渲染性能:** 针对 20,000+ 条词汇数据，引入 `React Virtuoso` 实现虚拟列表滚动；配合 `useMemo` 缓存机制与自定义 `useDebounce` 防抖拦截，彻底解决长列表 DOM 节点溢出与频繁重绘导致的卡顿。
+        * **算法与数据流:** 手写实现 **O(n) 时间复杂度**的扁平数据转树形结构 (List-to-Tree) 核心算法，瞬间完成万级架构节点的转换；封装通用 `treeUtils` 支持多业务线复用。
+        * **架构解耦 & 乐观更新:** 大量采用 Custom Hooks (如 `useWordManager`, `useFileHandler`) 抽离底层逻辑，实现 UI 组件纯净态；在删除/修改等高频操作中引入**乐观 UI 更新 (Optimistic UI)**，配合 LocalStorage 实现无感数据持久化。
+        * **数据可视化:** 接入 ECharts 绘制多维词表图表（构成比例、掌握率曲线、增量趋势），并通过 WebAPI 打通流式文件的本地上传与下载。
+
 ### ⚔️ 前端硬核实战演练 (Frontend Hardcore Training)
 
 > **🎯 核心目标**: 备战 2026 届春招
 > **💡 练习准则**: 拒绝死记硬背，全部基于真实业务需求（如游戏系统设计）推演 JavaScript/TypeScript 底层逻辑与 React 架构演进。
 
 <details>
-<summary><b>🟢 阶段一：JavaScript/TypeScript 底层逻辑突围 (已通关)</b></summary>
+<summary><b>🟢 阶段一：JavaScript/TypeScript 底层逻辑突围 (进行中...)</b></summary>
 <br>
 
 - [x] **01-铁匠铺锻造功能 (Forge System)** *深入探索:* 对象方法声明、`this` 作用域穿透、默认参数、使用 `reduce` 进行高阶数据聚合、Event Loop 延迟执行机制。
@@ -42,4 +49,4 @@
 </details>
 
 ### 📫 找到我 (Contact)
-* **Email:** 
+* **Email:** 3235882107@qq.com

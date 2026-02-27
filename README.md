@@ -8,7 +8,9 @@
 
 * **语言:** TypeScript (核心), JavaScript (ES6+), HTML5, CSS3/Sass
 * **框架/库:** React (深入理解 Hooks 与渲染性能优化), Next.js
-* **状态管理:** Zustand, Redux Toolkit (理解单向数据流与状态分片)
+* **状态管理与数据流:** * Zustand (深入理解单向数据流与状态分片逻辑)
+  * React Query / TanStack Query (精通服务端状态缓存、`useMutation` 自动刷新与无感静默同步)
+  * Axios (精通底层实例封装、拦截器鉴权与 `FormData` 二进制文件流配置)
 * **工程化:** Vite, Webpack, Git (遵循 Conventional Commits)
 * **设计/UI:** Tailwind CSS, Ant Design
 
@@ -44,7 +46,15 @@
 - [x] **05-装备背包系统 (React + Zustand Inventory)** *深入探索:* Zustand Store 全局状态剥离、跨组件无感知通信、UI 渲染与核心数据逻辑解耦。
 - [x] **06-冒险者任务大厅 (React Quest Board)** *深入探索:* `useState` 局部状态闭环、`useEffect` 模拟网络请求与生命周期管控、父子传值。
 - [x] **07-铁匠铺图纸商店 (Blacksmith Shop)** *深入探索:* **大厂标准组件设计**，`React.memo` 拦截多余渲染配合 Zustand 稳定引用 (Stable Reference)，前端数据派生计算 (Derived State)。
-- [ ] **08-[待解锁的下一个关卡...]**
+<details open>
+<summary><b>🟣 阶段三：网络层基建与服务端状态管理 (Network & Server State)</b></summary>
+<br>
+
+- [x] **08-怪物图鉴大厅 (Bestiary Hall)** *深入探索:* Axios 底层实例封装与拦截器 (Interceptors) 核心脱壳机制、API 请求层与 UI 视图层的绝对解耦设计、RESTful 规范下的 `params` 与 `data` 严格区分、基于 Early Return 的 UI 降级策略。
+- [x] **09-装备锻造台 (Forge System)** *深入探索:* 基于后端 API 契约的 TypeScript 接口逆向工程、Axios 泛型 (`<T, R>`) 深度注入以实现端到端类型安全、复杂嵌套响应结构 (`{ total, list }`) 的按需解构与映射、规避 `useEffect` 无限渲染死锁。
+- [x] **10-勇者排行榜 (Leaderboard)** *深入探索:* 彻底分离“服务端状态”与“客户端状态”的架构思维、基于 `@tanstack/react-query` 的全局缓存调度中心搭建、使用 `useQuery` 替代 `useState`+`useEffect` 实现声明式数据拉取、深度解析 `queryKey` 缓存条形码机制。
+- [x] **11-冒险者档案局 (Profile Bureau)** *深入探索:* 突破标准 JSON 请求模板，实战基于 `FormData` 的二进制文件流组装；深度挖掘 Axios 高级配置，挂载 `onUploadProgress` 拦截物理进度；掌握原生 DOM (`e.target.files[0]`) 提取技巧；利用 `useMutation` 结合 `invalidateQueries` 实现上传成功后的缓存强制失效与无感静默刷新。
+- [ ] **12-[待解锁的下一个关卡...]**
 
 </details>
 
